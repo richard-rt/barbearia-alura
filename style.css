@@ -264,9 +264,12 @@ td, th{
     nav {
         position: static;
     }
-    .lista-beneficios, .imagemBeneficios{
+    .lista-beneficios{
         width: 100%;
-        
+    }
+    .imagemBeneficios{
+        width: 100%;
+        margin: 1em 0;
     }
     table{
         margin: 20px auto 20px 0px;
@@ -274,4 +277,8 @@ td, th{
     .produtos, .produtos img{
         width: 100%;
         display: flex;
+    }
+    .produtos h2{
+        font-size: 25px;
+    }
 }
